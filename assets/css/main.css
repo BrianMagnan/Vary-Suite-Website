@@ -42,11 +42,12 @@ h4,
 h5,
 h6,
 p,
-a {
+a,
+i {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 
-  color: #fff;
+  color: #000000;
 }
 
 h1 {
@@ -127,7 +128,7 @@ a:hover {
   width: 100%;
   height: 100%;
 
-  background: #2707eb;
+  /* background: #2707eb; */
 }
 
 .preloader.preloader-hidden {
@@ -170,7 +171,7 @@ a:hover {
   animation: spinner-bounce 1.4s infinite ease-in-out both;
 
   border-radius: 100%;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .preloader .spinner .bounce-1 {
@@ -299,6 +300,26 @@ a:hover {
   opacity: 1;
 }
 
+.main__logo {
+  display: flex;
+  margin: auto;
+  filter: invert(100%);
+  margin-bottom: 500px;
+  max-width: 30%;
+  /* opacity: 0%; */
+  animation: rotation 3s infinite linear;
+  z-index: -150;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 /** 4. Hero --> Front Content 
 *******************************************************************/
 
@@ -314,7 +335,7 @@ a:hover {
 
 .hero .front-content .container-mid {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 0;
 
   width: 100%;
@@ -327,7 +348,7 @@ a:hover {
 
 .hero .front-content .container-mid img.logo {
   display: block;
-
+  width: 10px;
   margin: 0 auto;
 }
 
@@ -351,6 +372,7 @@ a:hover {
   margin-left: auto;
 
   letter-spacing: 0.025em;
+  z-index: index 1;
 }
 
 .hero .front-content .container-mid .open-popup {
@@ -371,7 +393,7 @@ a:hover {
   transition: all 0.1s linear;
   letter-spacing: 0.025em;
 
-  color: #fff;
+  color: #000000;
   border: 3px solid #fff;
   border-radius: 4em;
   background: none;
@@ -445,7 +467,7 @@ a:hover {
   height: 100%;
 
   opacity: 0.7;
-  background: #020026;
+  background: #959595;
 }
 
 .hero .background-content .background-img {
@@ -457,7 +479,7 @@ a:hover {
   width: 100%;
   height: 100%;
 
-  background: ;
+  background-image: ;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -519,8 +541,8 @@ a:hover {
 
   opacity: 0;
   border: 5px solid #fff;
-  background: red;
-  background-image: url(../img/card-background.jpg);
+  /* background: red; */
+  /* background-image: url(../img/card-background.jpg); */
   background-position: center;
   background-size: cover;
 }
