@@ -1,8 +1,5 @@
 .logo {
-  display: flex;
-  margin: auto;
-  position: relative;
-  margin-top: 200px;
+  margin-top: 10vw;
   filter: invert(100%);
   max-width: 30%;
   animation: rotation 3s infinite linear;
@@ -14,5 +11,15 @@
   }
   to {
     transform: rotateY(360deg);
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo {
+    margin: auto;
+    margin-top: 200px;
+    filter: invert(100%);
+    max-width: 50%;
+
+    animation: rotation 3s infinite linear;
   }
 }
