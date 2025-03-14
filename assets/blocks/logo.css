@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  margin: auto;
+  position: relative;
+  margin-top: 200px;
+  filter: invert(100%);
+  max-width: 30%;
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
