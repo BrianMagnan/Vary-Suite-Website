@@ -17,9 +17,12 @@
   .logo {
     margin: auto;
     margin-top: 200px;
-    filter: invert(100%);
     max-width: 50%;
+  }
+}
 
-    animation: rotation 3s infinite linear;
+@media screen and (max-device-width: 928px) and (orientation: landscape) {
+  .logo {
+    margin-top: 0vw;
   }
 }

@@ -2,6 +2,11 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  text-align: center;
   min-height: 50px;
+}
+
+@media screen and (max-device-width: 926px) and (orientation: landscape) {
+  .footer {
+    position: relative;
+  }
 }
