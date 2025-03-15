@@ -5,7 +5,7 @@
   min-height: 50px;
 }
 
-@media screen and (max-device-width: 926px) and (orientation: landscape) {
+@media screen and (max-device-width: 956px) and (orientation: landscape) {
   .footer {
     position: relative;
   }

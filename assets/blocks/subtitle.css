@@ -15,7 +15,7 @@
     letter-spacing: 0.025em;
   }
 }
-@media screen and (max-device-width: 926px) and (orientation: landscape) {
+@media screen and (max-device-width: 956px) and (orientation: landscape) {
   .subtitle {
     font-size: 2vw;
   }
