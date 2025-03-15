@@ -11,3 +11,9 @@
     font-size: 7vw;
   }
 }
+
+@media screen and (max-device-width: 926px) and (orientation: landscape) {
+  .message {
+    font-size: 4vw;
+  }
+}
