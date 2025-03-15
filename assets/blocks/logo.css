@@ -23,6 +23,8 @@
 
 @media screen and (max-device-width: 928px) and (orientation: landscape) {
   .logo {
+    max-width: 28%;
+
     margin-top: 0vw;
   }
 }
