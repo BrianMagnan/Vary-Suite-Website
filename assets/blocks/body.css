@@ -1,4 +1,5 @@
 .body {
   text-align: center;
   background: #aaaaaa;
+  min-height: 50px;
 }
